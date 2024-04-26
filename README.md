@@ -1,8 +1,10 @@
 # ValidityChecker
 Validity Checker for FOL 
 
-Fully functional for AND and IF statements, partially functional for OR statements
+Fully functional for AND and IF statements, partially functional for OR statements. Variables can be of any length.
 
-Does not function for statements longer than 1 connective (was unable to make nested statements work accurately). Variables can be of any length.
+BUGS:
+ - Does not function for statements longer than 1 connective (failed to make nested statements work accurately).
+ - Having more than 1 conclusion creates inconsistencies in the validation
 
-Some bugs are present in regards to validity of OR statements
+Some bugs are present regarding the validity of OR statements
