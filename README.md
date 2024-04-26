@@ -1,5 +1,5 @@
 # ValidityChecker
-Validity Checker for FOL 
+Validity Checker for Propositional Logic
 
 Fully functional for AND and IF statements, partially functional for OR statements. Variables can be of any length.
 
